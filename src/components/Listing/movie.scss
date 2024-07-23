@@ -1,0 +1,13 @@
+@import '../../common/colors.scss';
+
+.image{
+    opacity: 0.71;
+    transition: 0.4s;
+    filter: blur(0.54px);
+}
+
+.image:hover{
+    opacity: 1;
+    box-shadow: 0 0 2px 1px rgba(218, 224, 226, 0.5);
+    filter: none;
+}
