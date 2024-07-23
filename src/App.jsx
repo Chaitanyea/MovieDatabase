@@ -12,11 +12,13 @@ function App() {
    <div className='App'>
     <Router>
       <Header></Header>
+      <div className='container'>
       <Routes>
         <Route path='/' Component={home}></Route>
       <Route path='/movieDetails/:imdbID' Component={detail}></Route>
       <Route Component={errorpage}></Route>
       </Routes>
+      </div>
       <Footer></Footer>
     </Router>
    </div>

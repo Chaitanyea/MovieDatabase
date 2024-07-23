@@ -1,0 +1,21 @@
+@import '../common/colors.scss';
+
+.header{
+    background-color: $secondary-colour;
+    height: 80px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    color: $primary-font;
+    font-size: 18px;
+    font-weight:700;
+}
+
+.user-image,.user-image img{
+    width: 42px;
+    height: 42px;
+}
