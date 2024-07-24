@@ -6,7 +6,7 @@ import { addMovie } from '../../redux/movieSlice';
 import {useDispatch} from 'react-redux'
 
 const home = () => {
-    const key = "Summer"
+    const key = "Lord"
     const dispatch = useDispatch();
 
     useEffect(() => {

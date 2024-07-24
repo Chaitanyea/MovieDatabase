@@ -1,6 +1,14 @@
 @import '../../common/colors.scss';
 
+.card-border{
+    transition: 0.4s;
+    width: 320px;
+}
+.card-border:hover{
+    background: rgba(69, 68, 68, 0.173);
+}
 .image{
+    cursor: pointer;
     opacity: 0.71;
     transition: 0.4s;
     filter: blur(0.54px);
@@ -8,6 +16,7 @@
 
 .image:hover{
     opacity: 1;
-    box-shadow: 0 0 2px 1px rgba(218, 224, 226, 0.5);
+    box-shadow: 0 0 2px 1px rgba(85, 188, 213, 0.685);
     filter: none;
+    transform: scale(1.05);
 }

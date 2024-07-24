@@ -15,7 +15,7 @@ function App() {
       <div className='container'>
       <Routes>
         <Route path='/' Component={home}></Route>
-      <Route path='/movieDetails/:imdbID' Component={detail}></Route>
+      <Route path='/movie/:imdbID' Component={detail}></Route>
       <Route Component={errorpage}></Route>
       </Routes>
       </div>

@@ -1,0 +1,16 @@
+@import '../../common/colors.scss';
+
+.movie-detail{
+    display:flex;
+    padding: 40px 0px;
+    color: $primary-font;
+    font-weight: 500;
+    justify-content: space-evenly;
+}
+
+.rating-and-details{
+    color: $secondary-font;
+    display: flex;
+    margin-top: 20px;
+    padding-left: 3px;
+}
